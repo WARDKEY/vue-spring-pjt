@@ -56,9 +56,9 @@ public class WorkController {
         return null;
     }
 
-    @GetMapping("/jenkins")
+    @GetMapping("/jenkin")
     public String debugMsg() {
-        System.out.println(">>> debug Work Ctrl GET: /jenkins");
+        System.out.println(">>> debug Work Ctrl GET: /jenkin");
         return "success";
     }
 
