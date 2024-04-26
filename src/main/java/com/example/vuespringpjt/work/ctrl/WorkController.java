@@ -62,4 +62,10 @@ public class WorkController {
         return "success";
     }
 
+    @GetMapping("/rejenkins")
+    public String redebugMsg() {
+        System.out.println(">>> debug Work Ctrl GET: /rejenkins");
+        return "success";
+    }
+
 }
