@@ -32,7 +32,7 @@ jobs:
 
       # runner(ubuntu) docker buildx install(도커 이미지를 빌드하기 위해서는 docker buildx 설치 필요)
       - name: Docker buildx
-      - uses: docker/setup-buildx-action@v2
+      - uses: docker/setup-buildx-action@v1
       # docker image build to push docker hub
 
 
