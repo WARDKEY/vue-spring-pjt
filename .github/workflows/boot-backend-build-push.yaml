@@ -16,3 +16,7 @@ jobs:
     steps:
       - name: Source Checkout
         uses: actions/checkout@v2
+
+      - name: Setup JDK 17
+        uses: actions/setyp-java@v2
+
