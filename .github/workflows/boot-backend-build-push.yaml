@@ -22,3 +22,7 @@ jobs:
         with:
           java-version: '17'
           distribution: 'adopt'
+
+      # jar file build and permission
+      - name: Build Jar
+        run: ,/gradlew build bootJAR
