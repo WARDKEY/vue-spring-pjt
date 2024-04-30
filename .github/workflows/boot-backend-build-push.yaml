@@ -6,3 +6,13 @@ name: java with Gradle
 on:
   push:
     branches: [main]
+
+jobs:
+  build:
+    # runner를 설치
+    runs-on: ubuntu-latest
+
+    #소스코드 체크아웃
+    steps:
+      - name: Source Checkout
+        uses: actions/checkout@v2
