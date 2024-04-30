@@ -16,7 +16,7 @@
 FROM openjdk:17-alpine
 
 # 컨테이너 상의 파일
-WORKDIR /app-backend
+#WORKDIR /app-backend
 
 # 컨테이너 상의 jar 파일 생성
 ARG JAR_FILE=build/libs/*.jar
