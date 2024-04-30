@@ -1,0 +1,8 @@
+
+# 워크플로우의 이름
+name: java with Gradle
+
+# 트리거 설정
+on:
+  push:
+    branches: [main]
